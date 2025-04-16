@@ -62,9 +62,9 @@ export default function RootLayout({
               <div>
                 <h4 className="text-lg font-semibold mb-4">Contact</h4>
                 <ul className="space-y-2 text-gray-300">
-                  <li>Email: info@avidetravel.com</li>
-                  <li>Phone: +1 (555) 123-4567</li>
-                  <li>Address: 123 Travel Street, City, Country</li>
+                  <li>Email: avidetravel@gmail.com</li>
+                  <li>Phone: +1 (630) 540-8366</li>
+                  <li>Address: 123 Travel Street, Bolingbrook, IL 60440</li>
                 </ul>
               </div>
             </div>
