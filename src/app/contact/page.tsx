@@ -14,10 +14,10 @@ interface ContactFormData {
 
 export default function ContactPage() {
   const [formData, setFormData] = useState<ContactFormData>({
-    name: '',
-    email: '',
-    subject: '',
-    message: ''
+    name: 'Test Name',
+    email: 'Test Email',
+    subject: 'Test subject',
+    message: 'test mesage'
   })
   const [isSubmitting, setIsSubmitting] = useState<boolean>(false)
   const [isSuccess, setIsSuccess] = useState<boolean>(false)
