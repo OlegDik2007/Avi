@@ -68,7 +68,7 @@ export default function ContactPage() {
               </svg>
             </div>
             <h3 className="text-lg font-semibold mb-2">Email</h3>
-            <p className="text-gray-600">info@avidetravel.com</p>
+            <p className="text-gray-600">Need your email here.com</p>
           </Card>
           
           <Card className="p-6 text-center">
@@ -78,7 +78,7 @@ export default function ContactPage() {
               </svg>
             </div>
             <h3 className="text-lg font-semibold mb-2">Phone</h3>
-            <p className="text-gray-600">+1 (555) 123-4567</p>
+            <p className="text-gray-600">+1 (630) 540-8366</p>
           </Card>
           
           <Card className="p-6 text-center">
@@ -89,7 +89,7 @@ export default function ContactPage() {
               </svg>
             </div>
             <h3 className="text-lg font-semibold mb-2">Address</h3>
-            <p className="text-gray-600">123 Travel Street, City, Country</p>
+            <p className="text-gray-600">21 Fernwood Dr, Bolingbrook IL, 60440 USA</p>
           </Card>
         </div>
         
