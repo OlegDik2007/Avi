@@ -1,3 +1,4 @@
+import Image from 'next/image'
 export default function Home() {
   return (
     <div>
@@ -61,37 +62,64 @@ export default function Home() {
       </section>
 
       {/* Destinations Section */}
-      <section className="py-16">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Popular Destinations</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="rounded-lg overflow-hidden shadow-md">
-              <div className="h-48 bg-gray-300"></div>
-              <div className="p-6">
-                <h3 className="text-xl font-semibold mb-2">Paris, France</h3>
-                <p className="text-gray-600 mb-4">Experience the romance, culture, and cuisine of the City of Light.</p>
-                <a href="/booking" className="text-blue-600 font-medium hover:underline">Explore packages →</a>
-              </div>
-            </div>
-            <div className="rounded-lg overflow-hidden shadow-md">
-              <div className="h-48 bg-gray-300"></div>
-              <div className="p-6">
-                <h3 className="text-xl font-semibold mb-2">Tokyo, Japan</h3>
-                <p className="text-gray-600 mb-4">Discover the perfect blend of tradition and innovation in this vibrant metropolis.</p>
-                <a href="/booking" className="text-blue-600 font-medium hover:underline">Explore packages →</a>
-              </div>
-            </div>
-            <div className="rounded-lg overflow-hidden shadow-md">
-              <div className="h-48 bg-gray-300"></div>
-              <div className="p-6">
-                <h3 className="text-xl font-semibold mb-2">New York, USA</h3>
-                <p className="text-gray-600 mb-4">Experience the energy and excitement of the city that never sleeps.</p>
-                <a href="/booking" className="text-blue-600 font-medium hover:underline">Explore packages →</a>
-              </div>
-            </div>
-          </div>
+<section className="py-16">
+  <div className="container mx-auto px-4">
+    <h2 className="text-3xl font-bold text-center mb-12">Popular Destinations</h2>
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {/* Paris Card */}
+      <div className="rounded-lg overflow-hidden shadow-md">
+        <div className="relative h-48 w-full">
+          <Image
+            src="/paris1.jpg"
+            alt="Paris, France"
+            fill
+            className="object-cover"
+          />
         </div>
-      </section>
+        <div className="p-6">
+          <h3 className="text-xl font-semibold mb-2">Paris, France</h3>
+          <p className="text-gray-600 mb-4">Experience the romance, culture, and cuisine of the City of Light.</p>
+          <a href="/booking" className="text-blue-600 font-medium hover:underline">Explore packages →</a>
+        </div>
+      </div>
+      
+      {/* Tokyo Card */}
+      <div className="rounded-lg overflow-hidden shadow-md">
+        <div className="relative h-48 w-full">
+          <Image
+            src="/tokyo1.jpg"
+            alt="Tokyo, Japan"
+            fill
+            className="object-cover"
+          />
+        </div>
+        <div className="p-6">
+          <h3 className="text-xl font-semibold mb-2">Tokyo, Japan</h3>
+          <p className="text-gray-600 mb-4">Discover the perfect blend of tradition and innovation in this vibrant metropolis.</p>
+          <a href="/booking" className="text-blue-600 font-medium hover:underline">Explore packages →</a>
+        </div>
+      </div>
+      
+      {/* New York Card */}
+      <div className="rounded-lg overflow-hidden shadow-md">
+        <div className="relative h-48 w-full">
+          <Image
+            src="/newyork1.jpg"
+            alt="New York, USA"
+            fill
+            className="object-cover"
+          />
+        </div>
+        <div className="p-6">
+          <h3 className="text-xl font-semibold mb-2">New York, USA</h3>
+          <p className="text-gray-600 mb-4">Experience the energy and excitement of the city that never sleeps.</p>
+          <a href="/booking" className="text-blue-600 font-medium hover:underline">Explore packages →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* AI Destination Guides Section */}
       <section className="py-16 bg-blue-50">
