@@ -68,7 +68,7 @@ export default function Home() {
             <div className="rounded-lg overflow-hidden shadow-md">
               <div className="h-48 bg-gray-300"></div>
               <div className="p-6">
-                <h3 className="text-xl font-semibold mb-2">Paris, France</h3>
+                <h3 className="text-xl font-semibold mb-2">Caribian</h3>
                 <p className="text-gray-600 mb-4">Experience the romance, culture, and cuisine of the City of Light.</p>
                 <a href="/booking" className="text-blue-600 font-medium hover:underline">Explore packages →</a>
               </div>
