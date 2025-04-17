@@ -70,7 +70,7 @@ export default function Home() {
       <div className="rounded-lg overflow-hidden shadow-md">
         <div className="relative h-48 w-full">
           <Image
-            src="/paris1.jpg"
+            src="/111.gif"
             alt="Paris, France"
             fill
             className="object-cover"
