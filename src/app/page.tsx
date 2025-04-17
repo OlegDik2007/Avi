@@ -66,7 +66,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">Popular Destinations</h2>
           
-              <div className="h-48 bg-gray-300"></div>
+              
               <Image
                src="/images/caribian.jpg"
                alt="Caribbean"
