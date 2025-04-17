@@ -69,11 +69,11 @@ export default function Home() {
             <div className="rounded-lg overflow-hidden shadow-md">
               <div className="h-48 bg-gray-300"></div>
               <Image
-      src="/images/caribian.jpg"
-      alt="Caribbean"
-      layout="fill"
-      objectFit="cover"
-    />
+               src="/images/caribian.jpg"
+               alt="Caribbean"
+               layout="fill"
+               objectFit="cover"
+                />
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">Caribbean Islands</h3>
                 <p className="text-gray-600 mb-4">Experience the romance, culture, and cuisine of the City of Light.</p>
