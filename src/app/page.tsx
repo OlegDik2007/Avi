@@ -65,26 +65,47 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">Popular Destinations</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="rounded-lg overflow-hidden shadow-md">
-              <div className="h-48 bg-gray-300"></div>
+            {/* Caribbean Card */}
+      <div className="rounded-lg overflow-hidden shadow-md">
+        <div className="relative h-48 w-full">
+          <Image
+            src="/caribian.jpg"
+            alt="Caribbean Islands"
+            fill
+            className="object-cover"
+          />
               <div className="p-6">
-                <h3 className="text-xl font-semibold mb-2">Caribian</h3>
+                <h3 className="text-xl font-semibold mb-2">Caribbean Islands</h3>
                 <p className="text-gray-600 mb-4">Experience the romance, culture, and cuisine of the City of Light.</p>
                 <a href="/booking" className="text-blue-600 font-medium hover:underline">Explore packages →</a>
               </div>
             </div>
-            <div className="rounded-lg overflow-hidden shadow-md">
-              <div className="h-48 bg-gray-300"></div>
+            {/* Hawaii Card */}
+      <div className="rounded-lg overflow-hidden shadow-md">
+        <div className="relative h-48 w-full">
+          <Image
+            src="/hawai.jpg"
+            alt="Hawaii Islands"
+            fill
+            className="object-cover"
+          />
               <div className="p-6">
-                <h3 className="text-xl font-semibold mb-2">Tokyo, Japan</h3>
+                <h3 className="text-xl font-semibold mb-2">Hawaii Islands</h3>
                 <p className="text-gray-600 mb-4">Discover the perfect blend of tradition and innovation in this vibrant metropolis.</p>
                 <a href="/booking" className="text-blue-600 font-medium hover:underline">Explore packages →</a>
               </div>
             </div>
-            <div className="rounded-lg overflow-hidden shadow-md">
-              <div className="h-48 bg-gray-300"></div>
+            {/* Cruise  Card */}
+      <div className="rounded-lg overflow-hidden shadow-md">
+        <div className="relative h-48 w-full">
+          <Image
+            src="/cruise.jpg"
+            alt="Cruise"
+            fill
+            className="object-cover"
+          />
               <div className="p-6">
-                <h3 className="text-xl font-semibold mb-2">New York, USA</h3>
+                <h3 className="text-xl font-semibold mb-2">Cruise</h3>
                 <p className="text-gray-600 mb-4">Experience the energy and excitement of the city that never sleeps.</p>
                 <a href="/booking" className="text-blue-600 font-medium hover:underline">Explore packages →</a>
               </div>
