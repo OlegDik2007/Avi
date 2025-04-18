@@ -149,19 +149,35 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Quick Links Section with Carriers */}
+      <section className="py-16 bg-white border-t">
+        <div className="container mx-auto px-4">
+          <div className="text-center md:text-left max-w-2xl mx-auto">
+            <h2 className="text-2xl font-bold mb-6">Quick Links</h2>
+            <ul className="space-y-3 text-gray-600 text-lg">
+              <li>
+                <a href="/booking" className="hover:underline">Book a Trip</a>
+              </li>
+              <li>
+                <a href="/destinations" className="hover:underline">Destinations</a>
+              </li>
+              <li>
+                <a href="/services" className="hover:underline">Our Services</a>
+              </li>
+              <li>
+                <a href="/carriers" className="hover:underline font-medium text-blue-600">Our Carrier Partners</a>
+              </li>
+              <li>
+                <a href="/contact" className="hover:underline">Contact Us</a>
+              </li>
+              <li>
+                <a href="/faq" className="hover:underline">FAQ</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </div>
-{/* Carriers Section */}
-<section className="py-16 bg-white">
-  <div className="container mx-auto px-4 text-center">
-    <h2 className="text-3xl font-bold mb-4">Our Carrier Partners</h2>
-    <p className="text-gray-600 mb-8">We work with trusted carriers to ensure seamless travel experiences.</p>
-    <a
-      href="/carriers"
-      className="inline-block bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300"
-    >
-      View All Carriers
-    </a>
-  </div>
-</section>
   )
 }
