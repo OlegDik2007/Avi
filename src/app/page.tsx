@@ -150,5 +150,18 @@ export default function Home() {
         </div>
       </section>
     </div>
+{/* Carriers Section */}
+<section className="py-16 bg-white">
+  <div className="container mx-auto px-4 text-center">
+    <h2 className="text-3xl font-bold mb-4">Our Carrier Partners</h2>
+    <p className="text-gray-600 mb-8">We work with trusted carriers to ensure seamless travel experiences.</p>
+    <a
+      href="/carriers"
+      className="inline-block bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300"
+    >
+      View All Carriers
+    </a>
+  </div>
+</section>
   )
 }
