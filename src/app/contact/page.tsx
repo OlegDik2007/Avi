@@ -14,7 +14,7 @@ interface ContactFormData {
 
 export default function ContactPage() {
   const [formData, setFormData] = useState<ContactFormData>({
-    name: '',
+    name: '1',
     email: '',
     subject: '',
     message: ''
